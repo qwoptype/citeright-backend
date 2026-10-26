@@ -1,0 +1,19 @@
+{
+  "name": "citeright-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for the CiteRight citation builder",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ipaddr.js": "^2.2.0"
+  }
+}
